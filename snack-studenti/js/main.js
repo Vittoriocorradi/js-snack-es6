@@ -38,4 +38,9 @@ const students = [
     },
 ]
 
-console.log(students);
+const studentNamesUpperCase = students.map(element => {
+    return element = element.name.toUpperCase();
+})
+
+console.log(studentNamesUpperCase);
+
