@@ -30,6 +30,14 @@ ESERCIZIO
 SNACK 1
 
 Ho una lista di invitati in ordine di posto e il nome del tavolo.
-Per ogni invitato devo aggiungere il nome del tavolo a cui stanno e il numero del loro posto
+Per ogni invitato devo aggiungere il nome del tavolo a cui stanno e il numero del loro posto.
 Ciclo la lista degli invitati per indicare il nome di ogni invitato.
-Aggiungo per ogni invitato il proprio posto e il nome del tavolo
+Aggiungo per ogni invitato il proprio posto e il nome del tavolo.
+
+
+SNACK 2 
+
+Ho un elenco di studenti con id, nome e somma totale dei voti per ogni studente.
+Creo una nuova lista contentente solo il nome degli studenti, scritto in maiuscolo.
+Partendo dalla lista iniziale, creo una nuova lista in cui ci saranno solo gli studenti che hanno una somma dei voti maggiore di settanta.
+Partendo dalla lista iniziale, creo una nuova lista in cui ci saranno solo gli studenti che hanno una somma dei voti maggiore di settanta e il loro id è superiore a 120.

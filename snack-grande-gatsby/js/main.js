@@ -15,9 +15,8 @@ const guests = [
 ]
 
 // Lista di oggetti con nome dell'invitato
-const finalList = guests.map((element) => {
-    element = ({name: element});
-    return element;
+const finalList = guests.map((element, index) => {
+    return element = {name: element};
 });
 
 // Aggiungo il nome del tavolo e il posto a ogni invitato
