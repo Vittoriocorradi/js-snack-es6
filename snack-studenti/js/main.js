@@ -40,6 +40,9 @@ const students = [
     },
 ]
 
+
+// Punto 1
+
 // Creo una lista con solo i nomi degli studenti scritti in maiuscolo
 const studentNamesUpperCase = students.map(element => {
     return element = element.name.toUpperCase();
@@ -47,7 +50,9 @@ const studentNamesUpperCase = students.map(element => {
 
 console.log(studentNamesUpperCase);
 
-// Creo una lista con solo gli studenti che hanno somma dei voti maggiore a settanta
+// Punto 2
+
+// Creo una lista con solo gli studenti che hanno somma dei voti maggiore a 70
 const overSeventy = students.filter(element => {
     if (element.gradesSum > 70) {
         return true;
@@ -57,3 +62,16 @@ const overSeventy = students.filter(element => {
 console.log(`-----
 Studenti con totale di voti superiore a 70`);
 console.log(overSeventy);
+
+// Punto 3
+
+// Creo una lista con solo gli studenti che hanno somma dei voti maggiore a 70 e id superiore a 120
+const overSeventyHighId = students.filter(element => {
+    if(element.gradesSum > 70 && element.id > 120) {
+        return true;
+    }
+})
+
+console.log(`-----
+Studenti con totale di voti superiore a 70 e id sopra 120`);
+console.log(overSeventyHighId);
