@@ -1,7 +1,7 @@
 'use strict';
 
-
-const invitati = [
+// Lista invitati
+const guests = [
     'Brad Pitt',
     'Johnny Depp',
     'lady Gaga',
@@ -14,11 +14,17 @@ const invitati = [
     'Maneskin'
 ]
 
-const finalList = invitati.map((element) => {
+// Lista di oggetti con nome dell'invitato
+const finalList = guests.map((element) => {
     element = ({name: element});
     return element;
 });
 
-console.log(invitati);
-console.log(finalList);
+// Aggiungo il nome del tavolo e il posto a ogni invitato
+finalList.forEach((element, index) => {
+    element.table = 'Tavolo Vip';
+    element.seat = index + 1;
+})
 
+// Lista finale
+console.log(finalList);
