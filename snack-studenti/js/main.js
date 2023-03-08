@@ -1,5 +1,7 @@
 'use strict';
 
+
+// Lista studenti con id, nome e somma dei voti
 const students = [
     {
         id: 213,
@@ -38,9 +40,20 @@ const students = [
     },
 ]
 
+// Creo una lista con solo i nomi degli studenti scritti in maiuscolo
 const studentNamesUpperCase = students.map(element => {
     return element = element.name.toUpperCase();
 })
 
 console.log(studentNamesUpperCase);
 
+// Creo una lista con solo gli studenti che hanno somma dei voti maggiore a settanta
+const overSeventy = students.filter(element => {
+    if (element.gradesSum > 70) {
+        return true;
+    }
+})
+
+console.log(`-----
+Studenti con totale di voti superiore a 70`);
+console.log(overSeventy);
