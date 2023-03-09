@@ -42,8 +42,7 @@ bikeList.forEach((element) => {
 })
 
 // Destrutturo l'oggetto in due variabili
-const {peso} = lightestBike;
-const {nome} = lightestBike;
+const {nome, peso} = lightestBike;
 
 // Stampo la bicicletta più leggera
 console.log(`La bicicletta ${nome} è la più leggera con un peso di ${peso}kg`);
