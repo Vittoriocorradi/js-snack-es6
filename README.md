@@ -25,6 +25,20 @@ Id  Name                Grades
 120 Francesca da Polenta    84
 
 
+SNACK 3
+
+Creare un array di oggetti:
+Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
+Stampare in console la bici con peso minore utilizzando destructuring e template literal
+
+
+SNACK 4
+
+Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
+Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
+Generare numeri random al posto degli 0 nelle proprietà: Punti fatti e falli subiti.
+Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+
 ESERCIZIO
 
 SNACK 1
@@ -41,3 +55,10 @@ Ho un elenco di studenti con id, nome e somma totale dei voti per ogni studente.
 Creo una nuova lista contentente solo il nome degli studenti, scritto in maiuscolo.
 Partendo dalla lista iniziale, creo una nuova lista in cui ci saranno solo gli studenti che hanno una somma dei voti maggiore di settanta.
 Partendo dalla lista iniziale, creo una nuova lista in cui ci saranno solo gli studenti che hanno una somma dei voti maggiore di settanta e il loro id è superiore a 120.
+
+SNACK 3
+
+Creo una lista di biciclette, ognuna delle quali avrà un nome e un peso.
+Isolo il peso delle biciclette.
+Analizzando la lista, andrò a confrontare il peso delle biciclette l'una con l'altra, salvandomi la bicicletta con peso minore.
+Stampo in console la bicicletta con peso minore.
