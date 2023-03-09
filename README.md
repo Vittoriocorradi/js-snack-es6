@@ -62,3 +62,10 @@ Creo una lista di biciclette, ognuna delle quali avrà un nome e un peso.
 Isolo il peso delle biciclette.
 Analizzando la lista, andrò a confrontare il peso delle biciclette l'una con l'altra, salvandomi la bicicletta con peso minore.
 Stampo in console la bicicletta con peso minore.
+
+SNACK 4
+
+Creo una lista di squadre di calcio, ognuna avrà un nome e avrà punti fatti e falli subiti settati a 0.
+Ad ogni squadra di calcio assegno un numero casuale ai punti fatti e ai falli subiti.
+Creo una nuova lista in cui per ogni squadra di calcio compariranno solo il nome e il numero di falli subiti.
+Stampo la lista appena creata.
