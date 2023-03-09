@@ -1,5 +1,6 @@
 'use strict';
 
+// Lista biciclette con nomi e pesi
 const bikeList = [
     {
         nome: 'Elops',
@@ -26,3 +27,23 @@ const bikeList = [
         peso: 9.7
     }
 ]
+
+// Creo una variabile infinito come paragone superiore
+let weight = Number.POSITIVE_INFINITY;
+let lightestBike = '';
+
+// Ciclo la lista delle bici per vedere quale è la più leggera e la assegno a lightestBike
+bikeList.forEach((element) => {
+    const {peso} = element;
+    if (peso < weight) {
+        weight = peso;
+        lightestBike = element;
+    }
+})
+
+// Destrutturo l'oggetto in due variabili
+const {peso} = lightestBike;
+const {nome} = lightestBike;
+
+// Stampo la bicicletta più leggera
+console.log(`La bicicletta ${nome} è la più leggera con un peso di ${peso}kg`);
