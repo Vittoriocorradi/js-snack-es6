@@ -42,3 +42,10 @@ const teamsList = [
         'falli-subiti': 0 
     }
 ]
+
+teamsList.forEach(element => {
+    element.punti = Math.floor(Math.random() * 42 + 1);
+    element['falli-subiti'] = Math.floor(Math.random() * (150 - 30 + 1) + 30);
+})
+
+console.log(teamsList);
